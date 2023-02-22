@@ -1,0 +1,14 @@
+Given the path of the dataset, this program will K-fold cross-verify the 4 naive Bayesian models and save the model that have the highest score.
+    *4 naive Bayesian models: Gaussian naive Bayes, Bernoulli naive Bayes, Complement naive Bayes, Multinomial naive Bayes.
+
+Use the default configuration to run, just specify the dataset path, example:
+    python train.py --dataset=data/dataset.txt
+
+The default value of K is 10, and the model is saved in the "model" folder by default, the default name is "bayes".
+
+If you want to specify the value of K, please run:
+
+    python train.py -k {k_value} --dataset={dataset_path}  # Replace {k_value} with the value of K.
+
+You can also specify the path to save the model and the name of the model,
+use --path={your_path} and --name={your_name}.
