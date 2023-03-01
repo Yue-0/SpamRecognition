@@ -13,8 +13,7 @@
 ```
 SpamRecognition
 ├── data              # 数据集代码包
-    ├── __init__.py   # Dataset类的定义和sentence2vector代码
-    └── xxx           # 数据集文件
+    └── __init__.py   # Dataset类的定义和sentence2vector代码
 ├── docs              # 项目文档文件夹
     ├── help.txt      # train.py的帮助文档
     └── README_cn.md  # 中文说明文件

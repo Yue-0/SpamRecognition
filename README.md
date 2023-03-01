@@ -12,8 +12,7 @@ The goal of this project is to train a naive Bayesian classifier for spam recogn
 ```
 SpamRecognition
 ├── data              # Dataset code package
-    ├── __init__.py   # Dataset and sentence2vector code
-    └── xxx           # Dataset file
+    └── __init__.py   # Dataset and sentence2vector code
 ├── docs              # Project Documents
     ├── help.txt      # Help file for train.py
     └── README_cn.md  # Chinese description document
@@ -44,7 +43,7 @@ Requirements are include：
 pip install -r requirements.txt
 ```
 
-### 3.Prepare Dataset
+### 3.Prepare dataset
 
 [download sample dataset]: https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip
 
@@ -56,7 +55,7 @@ __Currently, only English datasets are supported.__
 
 You can [download sample dataset] for experiment.
 
-### 4.Training model
+### 4.Train model
 
 Run [train.py](train.py) to train the model. 
 You need to specify your dataset path:
