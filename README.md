@@ -45,15 +45,14 @@ pip install -r requirements.txt
 
 ### 3.Prepare dataset
 
-[download sample dataset]: https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip
-
 The dataset is a file.
 Each line contains a section of text and the label corresponding to the text.
 The label must be one of "spam" and "ham" at the beginning of 
 each line and separated by "\t" and text.
 __Currently, only English datasets are supported.__
 
-You can [download sample dataset] for experiment.
+You can [download sample dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip)
+for experiment.
 
 ### 4.Train model
 

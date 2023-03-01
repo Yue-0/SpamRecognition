@@ -46,13 +46,11 @@ pip install -r requirements.txt
 
 ### 3.准备数据
 
-[下载样例数据集]: https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip
-
 数据集是一个文件，每行包含一段文本和这段文本对应的标签，
 标签必须是“spam”和“ham”中的一个，且位于每行的开头，并用“\t”与文本分隔。
 __目前只支持英文数据集。__
 
-你可以[下载样例数据集]来进行实验。
+你可以[下载样例数据集](https://archive.ics.uci.edu/ml/machine-learning-databases/00228/smsspamcollection.zip)来进行实验。
 
 ### 4.训练模型
 
